@@ -231,7 +231,6 @@ tr:hover td{background:rgba(255,255,255,.02)}
     <div class="chart-body">
       {% if charts_exist.confusion_matrix %}
       <img src="{{ MEDIA_URL }}{{ chart_files.confusion_matrix }}" alt="Confusion Matrix">
-      <img src="/media/{{ chart_files.confusion_matrix }}" alt="Confusion Matrix">
       {% else %}
       <div class="chart-placeholder"><span>🔲</span><p>Run train_models to generate</p></div>
       {% endif %}
