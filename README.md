@@ -1,5 +1,7 @@
 # Healthcare Disease Prediction System
 
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://disease-prediction-system-h1cq.onrender.com)
+
 ---
 
 ## Quick Start (5 Steps)
