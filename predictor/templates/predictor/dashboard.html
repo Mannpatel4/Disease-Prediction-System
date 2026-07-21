@@ -170,8 +170,8 @@ tr:hover td{background:rgba(255,255,255,.02)}
     </div>
     <div class="chart-body">
       {% if charts_exist.performance_metrics %}
-      <!-- <img src="{{ MEDIA_URL }}{{ chart_files.performance_metrics }}" alt="Performance Metrics"> -->
-      <img src="/media/{{ chart_files.performance_metrics }}" alt="Performance Metrics">
+      <img src="{{ MEDIA_URL }}{{ chart_files.performance_metrics }}" alt="Performance Metrics">
+      <!-- <img src="/media/{{ chart_files.performance_metrics }}" alt="Performance Metrics"> -->
       {% else %}
       <div class="chart-placeholder"><span>📈</span><p>Run train_models to generate</p></div>
       {% endif %}
